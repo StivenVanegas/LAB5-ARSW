@@ -32,8 +32,8 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
      
       ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%201.png)
 	
-      - se implemento la parte requerida
-	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%201%20parte%201.png)
+     - se implemento la parte requerida
+     - ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%201%20parte%201.png)
 
 2. Modifique el bean de persistecia 'InMemoryBlueprintPersistence' para que por defecto se inicialice con al menos otros tres planos, y con dos asociados a un mismo autor.
 
