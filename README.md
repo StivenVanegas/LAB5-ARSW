@@ -29,7 +29,8 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 1. Integre al proyecto base suministrado los Beans desarrollados en el ejercicio anterior. Sólo copie las clases, NO los archivos de configuración. Rectifique que se tenga correctamente configurado el esquema de inyección de dependencias con las anotaciones @Service y @Autowired.
 
 	- se agregaron las dependencias, del lab4
-	[texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/parte%201%2C%20item%203.png)
+	
+	[texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%201.png)
 	
 	- se implemento la parte requerida.
 	[texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%201%20parte%201.png)
