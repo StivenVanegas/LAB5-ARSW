@@ -203,9 +203,9 @@ Ajuste el código para suprimir las condiciones de carrera. Tengan en cuenta que
 
 Escriba su análisis y la solución aplicada en el archivo ANALISIS_CONCURRENCIA.txt
 
-	- Las condiciones de carrera se presentan cuando se van a realizar la actualización de sobre los planos, ocasionando que cuando varios usuarios al tiempo quieren   	           actualizar el mismo plano, se presenta la condición de carrera.
+-  Las condiciones de carrera se presentan cuando se van a realizar la actualización de sobre los planos, ocasionando que cuando varios usuarios al tiempo quieren   	           actualizar el mismo plano, se presenta la condición de carrera.
 	
-	- Las regiones críticas se presentan en dos casos:
-	  1. Cuando se hace la actualización de los planos, ya que pueden estar varios clientes actualizando el mismo plano, ocasionando una región critica.
-	  2. Cuando se hacen cambios en MAP que contiene los planos, que es de tipo contenedor, podemos evidenciar que se genera una región critica, pues al actualizar los                    planos, no se vería reglado al mismo tiempo.
+- Las regiones críticas se presentan en dos casos:
+    1. Cuando se hace la actualización de los planos, ya que pueden estar varios clientes actualizando el mismo plano, ocasionando una región critica.
+    2. Cuando se hacen cambios en MAP que contiene los planos, que es de tipo contenedor, podemos evidenciar que se genera una región critica, pues al actualizar los                    planos, no se vería reglado al mismo tiempo.
 
