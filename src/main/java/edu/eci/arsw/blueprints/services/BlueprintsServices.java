@@ -38,6 +38,16 @@ public class BlueprintsServices {
         bpp.saveBlueprint(bp);
     }
     
+    public void updateBlueprint(Blueprint bp,String author, String name) throws BlueprintNotFoundException{
+        Blueprint bpa = getBlueprint(author, name);
+        if(bpa != null){
+            bpa.setAuthor(bp.getAuthor());
+            bpa.setName(bp.getName());
+            bpa.setPoints(bp.getPoints());
+        }
+        
+    }
+    
     public Set<Blueprint> getAllBlueprints(){
         return bpp.getAllBlueprints();
     }

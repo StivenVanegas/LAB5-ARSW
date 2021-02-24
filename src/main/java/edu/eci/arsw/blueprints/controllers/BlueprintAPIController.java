@@ -22,6 +22,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -56,6 +57,18 @@ public class BlueprintAPIController {
         } catch (Exception ex) {
             Logger.getLogger(BlueprintAPIController.class.getName()).log(Level.SEVERE, null, ex);
             return new ResponseEntity<>("Error bla bla bla", HttpStatus.FORBIDDEN);
+        }
+    }
+    
+    @RequestMapping(value = "/{author}/{name}", method = RequestMethod.PUT)
+    @ResponseBody
+    public ResponseEntity<?> manejadorPutBlueprint(@RequestBody Blueprint bp,@PathVariable String author, @PathVariable String name) {
+        try {
+            services.updateBlueprint(bp, author, name);
+            return new ResponseEntity<>(HttpStatus.ACCEPTED);
+        } catch (Exception ex) {
+            Logger.getLogger(BlueprintAPIController.class.getName()).log(Level.SEVERE, null, ex);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 }
