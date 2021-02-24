@@ -173,7 +173,8 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 
 	- Se crea el metodo PUT, con el fin de que pueda solicitar los servicios de la forma: /blueprints/{author}/{bpname}, para 	    que este pueda actualizar el plano.
 	
-	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-				     ARSW/blob/master/img/parte%202%2C%20item%204-1.PNG)
+	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%204-1.PNG)
+	
 	
 	- Se procede a mostrar la ejecucion de dicho metodo mediande el browser y solicitando el plano Stiven.
 
