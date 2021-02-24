@@ -90,7 +90,7 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%205-2.PNG)
 	
 	- Retorrno del error HTTP 404, Debido a que no existe dicho autor.
-	https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%205-3.PNG
+	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%205-3.PNG)
 
 6. Modifique el controlador para que ahora, acepte peticiones GET al recurso /blueprints/{author}/{bpname}, el cual retorne usando una representación jSON sólo UN plano, en este caso el realizado por {author} y cuyo nombre sea {bpname}. De nuevo, si no existe dicho autor, se debe responder con el código de error HTTP 404. 
 
