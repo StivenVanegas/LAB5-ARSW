@@ -203,7 +203,7 @@ Ajuste el código para suprimir las condiciones de carrera. Tengan en cuenta que
 
 Escriba su análisis y la solución aplicada en el archivo ANALISIS_CONCURRENCIA.txt
 
-- ### Desarrollo ###
+ ### Desarrollo ###
 
 -  Las condiciones de carrera se presentan cuando se van a realizar la actualización de sobre los planos, ocasionando que cuando varios usuarios al tiempo quieren   	           actualizar el mismo plano, se presenta la condición de carrera.
 	
