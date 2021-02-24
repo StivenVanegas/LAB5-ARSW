@@ -105,7 +105,7 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 
 6. Modifique el controlador para que ahora, acepte peticiones GET al recurso /blueprints/{author}/{bpname}, el cual retorne usando una representación jSON sólo UN plano, en este caso el realizado por {author} y cuyo nombre sea {bpname}. De nuevo, si no existe dicho autor, se debe responder con el código de error HTTP 404. 
 
-	-Modificación del controlador para que acepte peticiones GET al recurso.
+	- Modificación del controlador para que acepte peticiones GET al recurso.
 	
 	
 	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%201%2C%20item%206-1.PNG)
