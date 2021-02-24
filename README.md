@@ -136,7 +136,7 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 	}
 	```	
 
-	- Se agrega el manejo de peticones POST, para que el cliente pueda registrar una nueva orden.
+	- Se agrega el manejo de peticiones POST, para que el cliente pueda registrar una nueva orden.
 	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%201.PNG)
 	
 
@@ -157,7 +157,7 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 	Nota: puede basarse en el formato jSON mostrado en el navegador al consultar una orden con el método GET.
 	
 
-	- Se hace uso del codigo suministrado para ejecutar la peticion con JSON, y verificar que la este realizando de forma correcta.
+	- Se hace uso del código suministrado para ejecutar la petición con JSON, y verificar que la este realizando de forma correcta.
 	
 	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%202.PNG)
 	
@@ -165,7 +165,7 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 
 3. Teniendo en cuenta el autor y numbre del plano registrado, verifique que el mismo se pueda obtener mediante una petición GET al recurso '/blueprints/{author}/{bpname}' correspondiente.
 
-	- Se verica en el browser que la peticion realziada con JSON sirva para retornar el recurso correspondiente. 
+	- Se verifica en el browser que la petición realizada con JSON sirva para retornar el recurso correspondiente.
 	
 	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%203.PNG)
 
