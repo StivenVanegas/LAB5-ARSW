@@ -29,14 +29,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @author hcadavid
  */
 @RestController
-@RequestMapping(value = "/blueprints/{author}/{bpname}")
+@RequestMapping(value = "/blueprints")
 public class BlueprintAPIController {
 
     @Autowired
     @Qualifier("BlueprintsServices")
     BlueprintsServices services;
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value = "/{author}/{bpname}", method = RequestMethod.GET)
     public ResponseEntity<?> manejadorGetRecursoXX(@PathVariable String author, @PathVariable String bpname) {
         try {
             //obtener datos que se enviarán a través del API
@@ -44,6 +44,18 @@ public class BlueprintAPIController {
         } catch (Exception ex) {
             Logger.getLogger(BlueprintAPIController.class.getName()).log(Level.SEVERE, null, ex);
             return new ResponseEntity<>("Error bla bla bla", HttpStatus.NOT_FOUND);
+        }
+    }
+    
+    @RequestMapping(value="/planos", method = RequestMethod.POST)
+    public ResponseEntity<?> manejadorPostRecursoXX(@RequestBody Blueprint bp) {
+        try {
+            //registrar dato
+            services.addNewBlueprint(bp);
+            return new ResponseEntity<>(HttpStatus.CREATED);
+        } catch (Exception ex) {
+            Logger.getLogger(BlueprintAPIController.class.getName()).log(Level.SEVERE, null, ex);
+            return new ResponseEntity<>("Error bla bla bla", HttpStatus.FORBIDDEN);
         }
     }
 }
