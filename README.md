@@ -171,6 +171,25 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 
 4. Agregue soporte al verbo PUT para los recursos de la forma '/blueprints/{author}/{bpname}', de manera que sea posible actualizar un plano determinado.
 
+	- Se crea el metodo PUT, con el fin de que pueda solicitar los servicios de la forma: /blueprints/{author}/{bpname}, para 	    que este pueda actualizar el plano.
+	
+	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-				     ARSW/blob/master/img/parte%202%2C%20item%204-1.PNG)
+	
+	- Se procede a mostrar la ejecucion de dicho metodo mediande el browser y solicitando el plano Stiven.
+
+
+	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%204-2.PNG)
+	
+	- luego hacemos la ejecución del comando JSON para verificar que todo lo realizado anteriormente compila y ejecuta    		   correctamente. 
+
+	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%204-3.PNG)
+	
+	- Por último cambiamos los valores de los planos, para verificar que se esta ejecutando bien el JSON y procedemos a                 correrlo en el localHost y verificar que los valores ingresados estén plasmados y correctos.
+
+	
+	![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB5-ARSW/blob/master/img/parte%202%2C%20item%204-4.PNG)
+	
+
 
 ### Parte III
 
