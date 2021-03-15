@@ -36,7 +36,12 @@ public class BlueprintAPIController {
     @Autowired
     @Qualifier("BlueprintsServices")
     BlueprintsServices services;
-
+	
+	@RequestMapping("/hello") 
+	public String hello(){
+		return "Hello from Rest";
+	}
+	
     @RequestMapping(value = "/{author}/{bpname}", method = RequestMethod.GET)
     public ResponseEntity<?> manejadorGetRecursoXX(@PathVariable String author, @PathVariable String bpname) {
         try {
